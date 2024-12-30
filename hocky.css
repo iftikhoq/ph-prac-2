@@ -1,0 +1,233 @@
+.custom-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-toggler{
+  border: none;
+ }
+ .navbar-nav .nav-link {
+  font-weight: 500;
+ }
+.d-flex{
+    display: flex;
+    gap:10px;
+
+}
+ .bannar-container{
+
+    margin-top:100px;
+}
+.box-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.progress-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffffff;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-red {
+  background: conic-gradient(#d80202 45%, #e6e6e6 0% 100%);
+}
+
+.p-green {
+  background: conic-gradient(#28a745 65%, #e6e6e6 0% 100%);
+}
+
+.p-yellow {
+  background: conic-gradient(#ffc107 80%, #e6e6e6 0% 100%);
+}
+
+.p-blue {
+  background: conic-gradient(#007bff 90%, #e6e6e6 0% 100%);
+}
+.card {
+  position: relative;
+}
+
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.card .btn {
+  background-color: red;
+  color: white;
+  height:auto;
+  width: 200px;
+}
+
+.hover-opacity:hover {
+  opacity: 0.7; /* Decrease opacity on hover */
+}
+
+.section {
+      margin-top:10px; 
+  }
+
+  @media only screen and (min-width:400px) and (max-width: 768px) {
+    .caption-title {
+      font-size: 1rem; 
+    }
+    .caption-subtitle {
+      font-size: 0.4rem; 
+    }
+      .carousel-caption {
+            position: static !important; 
+            margin-top: 10px; 
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 0.9rem; 
+            margin-right:0px;
+            margin-left: 0px;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+           bottom:100%; 
+             transform: translateY(100%);  
+            width: 30px; 
+            height: 30px;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-size: 100%;
+        }
+  .card {
+    margin-bottom: 20px; /* Add spacing between stacked cards */
+  }
+
+  .card-title {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .card-text {
+    font-size: 0.8rem; /* Smaller text */
+    margin-right: 10px; /* Reduce padding/margin */
+  }
+
+  .card .btn {
+    height: auto; /* Auto adjust height */
+    width: 150px; /* Smaller width for buttons */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+    .faq-image img {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 100%;
+      height: auto;
+    }
+    .faq-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .d-flex.shadow-sm.p-3.align-items-center {
+      flex-direction: column;
+      text-align: center;
+    }
+    .d-flex.shadow-sm.p-3.align-items-center img {
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+    }
+    .d-flex.shadow-sm.p-3.align-items-center .ms-3 {
+      margin: 0;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .col-md-4 img {
+      max-width:10px; 
+      max-height:10px;
+    }
+    .col-md-4 div strong {
+      font-size:7px;
+      line-height: 1.2;
+    }
+    .col-md-4 div p {
+      font-size: 10px;
+      line-height:1.0em;
+      word-wrap: break-word;
+      margin-bottom: 2px;
+    }
+    .col-md-4 div {
+      display: block;
+      text-align: left;
+    }
+      .col-md-6 {
+        flex-direction: column !important; 
+        align-items: center !important; 
+        text-align: center; 
+      }
+    
+      .col-md-6 img {
+        margin-bottom: 15px; 
+      }
+    
+      .d-flex.shadow-sm {
+        flex-direction: column; 
+      }
+
+      .faq-image img {
+        margin-bottom: 20px;
+      }
+      .faq-image,
+      .accordion {
+        margin: 0 auto;
+      }
+    }
+    
+  
+  
+
+
